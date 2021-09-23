@@ -1,33 +1,80 @@
 .container
-    width: 915px
-    min-height: 417px
+	width: 915px
+	min-height: 417px
 .offer
-    margin-top: 133px
-    &__label
-        font-size: 59px
-        font-family: "Roboto"
-        font-weight: 700
-        color: #fff
-        margin: 0
-        line-height: 82px
-    &__title
-        margin-top: 50px
-        font-weight: 400
-        font-size: 32px
-        color: #fff
-    &__btn
-        margin-top: 69px
-        width: 312px
-        height: 64px
-        color: #143153
-        font-weight: 700
-        font-size: 22px
-        background-image: linear-gradient(rgba(211, 205, 61, .87), rgba(238, 190, 21, .87))
-        border-radius: 35px
-        text-transform: uppercase
+	position: relative
+	margin-top: 133px
+	&__label
+		font-size: 59px
+		font-family: "Roboto"
+		font-weight: 700
+		color: #fff
+		margin: 0
+		line-height: 82px
+	&__title
+		margin-top: 50px
+		font-weight: 400
+		font-size: 32px
+		color: #fff
+	&__btn
+		margin-top: 69px
+		width: 312px
+		height: 64px
+		color: #143153
+		font-weight: 700
+		font-size: 22px
+		background-image: linear-gradient(rgba(211, 205, 61, .87), rgba(238, 190, 21, .87))
+		border-radius: 35px
+		text-transform: uppercase
+		border: none
+		&:hover
+			box-shadow:0 0 20px #fff
+	&__img
+		display: block
+		position: absolute
+		top: -17px
+		right: -58px
+	&__phrase
+		display: block
+		position: absolute
+		right: 5px
+		top: -35px
 .trigger
-    display: flex
-    margin-top: 110px
-    &__item
-        display: flex
-        width: 282px
+	display: flex
+	justify-content: space-between
+	margin-top: 110px
+	&__item
+		display: flex
+		flex-direction: row
+		justify-content: center
+		align-items: center
+		min-width: 281px
+	&__round
+		display: flex
+		justify-content: center
+		align-items: center
+		margin-right: 26px
+		background-color: #fff
+		min-width: 50px
+		min-height: 50px
+		border-radius: 50%
+	&__text
+		color: #fff
+		font-size: 18px
+		font-weight: 700
+		span
+			font-weight: 400
+.social
+	position: absolute
+	top: 338px
+	right: 5px
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+	min-height: 119px
+	font-size: 20px
+	opacity: .5
+	a
+		text-decoration: none
+		color: #fff
+	
